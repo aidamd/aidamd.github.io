@@ -1,0 +1,17 @@
+#top
+{
+    height: 20%;
+    color: black;
+}
+
+div#right
+{
+    width: 30%;
+    color: red;
+}
+
+div#left
+{
+    width: 30%;
+    color: green;
+}
