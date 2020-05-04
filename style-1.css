@@ -1,0 +1,72 @@
+div#main
+{
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+#top
+{
+    height: 20%;
+    color: black;
+}
+
+div#right
+{
+    float: left;
+    width: 63%;
+    margin: .6%;
+    padding: 2%;
+    border: 30px solid black;
+}
+
+div#left
+{
+    float: left;
+    width: 25%;
+    margin: .6%;
+    color: #ff0099;
+    background-color: black;
+}
+
+div.left_div
+{
+    float: none;
+    text-align: center;
+    max-width: 100%;
+    margin: 10px;
+}
+
+img#me
+{
+    max-width: 70%;
+    margin: 5%;
+    border: black;
+}
+
+div#name
+{
+    font-size: 20;
+}
+
+a
+{
+    color: #ff0099;
+}
+
+li
+{
+    margin-top:4%;
+}
+
+ul
+{
+    margin-left:-10px;
+}
+div#new
+{
+    background-color: white;
+    padding-top: 10px;
+    padding-bottom: 40px;
+    padding-left: -20px;
+    padding-right: -20px;
+    color: black;
+}
