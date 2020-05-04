@@ -1,6 +1,13 @@
+body
+{
+    background-image: url("img/back.jpg");
+    background-repeat: repeat;
+}
+
 div#main
 {
     font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    background-color: yellow;
 }
 
 #top
@@ -12,10 +19,13 @@ div#main
 div#right
 {
     float: left;
-    width: 63%;
+    width: 40%;
     margin: .6%;
-    padding: 2%;
+    padding: 5%;
+    padding-top: 3%;
     border: 30px solid black;
+    background-color: white;
+    box-shadow: inset 0px 0px 0px 20px red;
 }
 
 div#left
@@ -23,7 +33,8 @@ div#left
     float: left;
     width: 25%;
     margin: .6%;
-    color: #ff0099;
+    margin-left: 9%;
+    color: #ff0066;
     background-color: black;
 }
 
@@ -49,7 +60,7 @@ div#name
 
 a
 {
-    color: #ff0099;
+    color: #ff0066;
 }
 
 li
@@ -69,4 +80,10 @@ div#new
     padding-left: -20px;
     padding-right: -20px;
     color: black;
+}
+
+span.time
+{
+    color: #000066;
+    font-weight: bold;
 }
