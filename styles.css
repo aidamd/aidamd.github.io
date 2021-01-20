@@ -4,6 +4,11 @@ body
     background-repeat: repeat;
 }
 
+div{
+border-radius: 25px;
+border-radius: 25px;
+}
+
 div#main
 {
     font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
@@ -25,7 +30,7 @@ div#right
     padding-top: 3%;
     border: 30px solid black;
     background-color: white;
-    box-shadow: inset 0px 0px 0px 20px #a10000;
+    box-shadow: inset 0px 0px 0px 20px gold;
 }
 
 div#left
@@ -86,7 +91,7 @@ div#new
     padding-left: 20px;
     padding-right: -20px;
     color: black;
-    box-shadow: inset 0px 0px 0px 10px #a10000;
+    box-shadow: inset 0px 0px 0px 15px #a10000;
     text-align: left;
 }
 
