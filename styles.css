@@ -2,6 +2,7 @@ body
 {
     background-image: url("img/1.jpg");
     background-repeat: repeat;
+    line-height: 150%;
 }
 
 div{
@@ -19,6 +20,11 @@ div#main
 {
     height: 20%;
     color: black;
+}
+
+h2.right
+{
+    color: #a78436;
 }
 
 div#right
