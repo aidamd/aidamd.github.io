@@ -48,6 +48,8 @@ div#left
     color: #a78436;
     background-color: black;
 }
+
+
 a.left
 {
     color: #a78436;
@@ -63,13 +65,13 @@ div.left_div
 
 img#me
 {
-    max-width: 70%;
+    width: 70%;
     margin: 5%;
     border: black;
 }
 img#my_name
 {
-    max-width: 20%;
+    width: 20%;
     border: black;
     top-margin: 20%;
 }
@@ -107,3 +109,8 @@ span.time
     color: #5ba4b4;
     font-weight: bold;
 }
+
+@media screen and (max-width: 800px) {
+  div#left, div#right {
+    width: 80%; /* The width is 100%, when the viewport is 800px or smaller */
+  }
